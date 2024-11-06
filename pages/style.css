@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: rgb(63, 62, 62);
+    padding: 10px;
+    display: flex;
+    color: rgb(245, 240, 240);
+    justify-content: space-between;
+    padding: 15px;
+}
+.titleA{
+    color: rgb(245, 240, 240) !important;
+}
+.navbar ul{
+    display: flex;
+    gap: 6rem;
+}
+.btnReport{
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    border: 1px solid rgb(63, 62, 62);
+    border-radius: 5px;
+}
+.btnReport:hover{
+    background-color: rgb(5, 82, 5);
+    cursor: pointer;
+}
+.totDIv{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.box-50{
+    width: 50%;
+    overflow: scroll;
+    height: 100%;
+}
+.box-501{
+    width: 30%;
+    padding: 20px;
+    height: auto;
+    background-color: white;
+}
+.box-501 div{
+    width: 100%;
+    margin-top: 20px;
+}
+.box-501 div div{
+    width: 100%;
+}
+.dark-container{
+    background: #6789;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.ulDiv1::-webkit-scrollbar{
+    display: none;
+}
+.hidden{
+    display: none !important;
+}
+.box-501 div div{
+    margin-bottom: 10px;
+}
+.box-501 div div button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(63, 62, 62);
+    color: white;
+    cursor: pointer;
+}
+.flexDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.xLink{
+    color: rgb(63, 62, 62);
+}
+.box-501 div div input{
+    padding: 8px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid rgb(230, 226, 226);
+}
+.lost-main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.box-50::-webkit-scrollbar{
+    display: none;
+}
+.sideView{
+    width: 15%;
+    height: 100vh;
+    border-right: 3px solid hotpink;
+    background-color: rgb(63, 62, 62);
+}
+.main-main-box{
+    width: 85%;
+    height: 100vh;
+}
+.main-section{
+    display: flex;
+}
+.top-container{
+    padding: 20px;
+    color: rgb(63, 62, 62);
+}
+.items-form{
+    width: 40%;
+    padding: 10px;
+    color: rgb(126, 122, 122);
+}
+.topBard-form{
+    padding: 10px;
+    border-bottom: 2px solid hotpink;
+    color: white;
+    background-color: rgb(63, 62, 62);
+}
+.conatiner-box{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner-box1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.cbox1{
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(126, 122, 122);
+}
+.cbox2{
+    width: 70%;
+    height: 100%;
+    
+}
+.card-cat{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+}
+.card-cat:hover{
+    background-color: rgb(126, 122, 122);
+    color: hotpink;
+    cursor: pointer;
+}
+.top-cbox2{
+    background-color: rgb(63, 62, 62);
+    width: 100%;
+    padding: 7px;
+    color: white;
+    margin-top: 10px;
+}
+.card-item-m{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(224, 221, 221);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.cbox2{
+    height: 85vh;
+    overflow: scroll;
+}
+.btnManage{
+    border-radius: 4px;
+    background-color: rgb(63, 62, 62);
+    border: 1px solid rgb(126, 122, 122);
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+.btnAdd{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(63, 62, 62);
+    border-bottom: 1px solid hotpink;
+    cursor: pointer;
+}
+.sideNavView{
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.sideNavView ul li{
+    margin-bottom: 30px;
+}
+.sideNavView ul li a:hover{
+    color: hotpink;
+    border-bottom: 1px solid hotpink;
+}
+
+.items-form form div{
+    margin-bottom: 10px;
+}
+.items-form form div input{
+    padding: 7px;
+    width: 100%;
+}
+.dash1{
+    border-top: 3px solid green;
+}
+.dash2{
+    border-top: 3px solid hotpink;
+}
+.dash3{
+    border-top: 3px solid dodgerblue;
+}
+.dah-main{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard{
+    width: 90%;
+    margin-left: 10px;
+}
+.sum-bod{
+    width: 30%;
+}
+.card-item-dash{
+    margin: 10px;
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.card-item-dash small{
+    color: gray;
+}
+.card-item-dash strong{
+    color: rgb(63, 62, 62);
+}
+.btnEdit1{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.btnDel1{
+    background-color: brown;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.tableMain{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.tableMain thead{
+    background-color: rgb(63, 62, 62);
+}
+.tableMain thead th{
+    color: white;
+    text-align: start;
+    padding: 5px;
+}
+.tableMain tbody tr td{
+    padding: 5px;
+    border-bottom: 1px dotted white;
+}
+.show-cb{
+    display: block;
+}
+.hide-cb{
+    display: none;
+}
+.box2-can{
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-pot{
+    font-size: 25px !important;
+    padding: 20px;
+    font-size: 25px;
+    width: 30%;
+    border: 1px solid rgb(63, 62, 62);
+}
+.item-pot div{
+    margin-bottom: 10px;
+}
+.flexDiv-iem{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.giveDiv{
+    width: 50%;
+    font-size: 20px;
+}
+.giveDiv input{
+    padding: 6px;
+    width: 100%;
+}
+.giveDiv button{
+    width: 100%;
+    padding: 10px;
+}
+.cenDiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.loginForm{
+    background-color:white;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 40px;
+}
+.btnX{
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.lostTxt{
+    background-color: brown;
+    color: white;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+}
+.loginForm input{
+    width: 100%;
+    padding: 10px;
+}
+.loginForm button{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+.showDiv{
+    display: flex;
+    width: 40px;
+    gap: 10px;
+}
+.ulBox{
+    width: 100%;
+}
+.wwwDiv{
+    width: 100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.ulBox li{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+
+}
+.ulDiv1{
+    width: 100%;
+    height: 80vh;
+    overflow: scroll;
+}
+.pop-container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6779;
+}
+.pop-up{
+    background-color: white;
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 55px;
+}
+.pop-up button{
+    padding: 7px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+.btnDelete{
+    background-color: brown !important;
+}
+.hide{
+    display: none;
+}
+.tableReport{
+    background-color: white;
+    width: 100%;
+}
+.tableReport thead{
+    background-color: rgb(63, 62, 62);
+}
+.tableReport thead th{
+    text-align: start;
+    color: white;
+    padding: 6px;
+}
+.ttBox{
+    width: 100%;
+}
+.tr{
+   background-color: rgb(228, 224, 224);
+}
+.tr td{
+    padding: 6px;
+}
+.tr button{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
